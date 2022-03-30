@@ -1,0 +1,26 @@
+while Month:
+         city_input = input("Enter city name to be explored: ")
+         month_input = input("Enter the month to be explored: ")
+         day_input = input("Enter the day to be explored: ")
+        
+        if city_input == 'chicago' or :
+            city = f'The city to be analysed is {city_input}'
+        elif city_input == 'new york city':
+            city = f'The city to be analysed is {city_input}'
+        elif city_input == 'washington':
+            city = f'The city to be analysed is {city_input}'
+        else:
+            print("Invalid input')
+         
+        if month_input in Month:
+            month = f'Filter by {month_input}'
+        elif month_input = 'all':
+            month = "No month filter"
+        else:
+            pass
+        
+        if day_input in Day:
+            day = f'Filter by {day_input}'
+        elif day_input = "all":
+            day = "No day filter"
+      
